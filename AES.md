@@ -20,7 +20,7 @@ Ví dụ: ô 19 tương ứng với hàng 1 cột 9 => d4
        a0 tương ứng với hàng a cột 0 => e0
 _SubBytes()_: thực hiện phép thay thế các byte của mảng trạng thái bằng cách sử dụng S-box ( như mình đã làm ví dụ ở bức ảnh trên )
 
-_ShiftRows(): Dịch vòng ba hàng cuối của mảng trạng thái
+_ShiftRows()_: Dịch vòng ba hàng cuối của mảng trạng thái
 ![image](https://github.com/hoahangsau/Week3/assets/153940762/e6723052-4740-4256-a23d-7f6d59c2cf01)
 
 _MixColumns_: Nhân mỗi cột của mảng trạng thái với các phần tử tương ứng trong hàng của trường GF(2^8)
